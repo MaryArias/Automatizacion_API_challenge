@@ -1,3 +1,4 @@
+
 # Challenge Técnico - Automatización de API
 
 Este proyecto resuelve un challenge técnico de automatización de pruebas sobre una API REST utilizando **Python**, **Pytest** y el patrón **POM (Page Object Model)** adaptado a testing de APIs.
@@ -21,24 +22,22 @@ Incluye:
 - SQLite (o base de datos compatible para validación)
 
 ---
+### Estructura del proyecto:
 
-## Estructura del proyecto:
-
+```bash
 AUTOMATIZACIÓN_DE_API/
-├── db/ 
-│ ├── init.py
-│ └── validators.py
-├── pages/ # POM para la API
-│ └── import_api.py
-├── tests/ # Pruebas con Pytest
-│ └── test_import.py
-│ │ └── import_steps.py
-│ └── environment.py
-├── conftest.py 
-├── requirements.txt 
-└── README.md 
-
-
+├── db/
+│   └── validators.py
+├── pages/                # POM para la API
+│   └── import_api.py
+├── tests/                # Pruebas con Pytest
+│   ├── test_import.py
+│   └── import_steps.py
+├── environment.py
+├── conftest.py
+├── requirements.txt
+└── README.md
+```
 ---
 
 ## Instalación
