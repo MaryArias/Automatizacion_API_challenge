@@ -28,9 +28,9 @@ Incluye:
 AUTOMATIZACIÓN_DE_API/
 ├── db/
 │   └── validators.py
-├── pages/                # POM para la API
+├── pages/                
 │   └── import_api.py
-├── tests/                # Pruebas con Pytest
+├── tests/                
 │   ├── test_import.py
 │   └── import_steps.py
 ├── environment.py
